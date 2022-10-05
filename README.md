@@ -5,6 +5,7 @@
 <li><a href="#intro">Introduction</a></li>
 <li><a href="#noshow">Project 1: No-Show Appointments 2016</a></li>
 <li><a href="#wrangle">Project 2: WeRateDogs- Wrangling and Analysing.</a></li>
+<li><a href="#prosper">Project 3: An Analysis of Loan Data from Prosper.</a></li>
 </ul>
 
 <a id='intro'></a>
@@ -85,3 +86,50 @@ At a glance, before getting into the rest of the process, I posed a few question
 3. What are the most retweeted tweets?
 4. What is the average level of confidence of the algorithm in its image predictions?
 5. Is the prime prediction a dog species?
+
+<a id='prosper'></a>
+## Project 3: An Analysis of Loan Data from Prosper.
+This project specifically targets data visualization skills. I visualized data from Prosper loans, recorded between 2005 and 2014. I obtained this dataset from [here](https://www.google.com/url?q=https://s3.amazonaws.com/udacity-hosted-downloads/ud651/prosperLoanData.csv&sa=D&ust=1554484977406000). The dataset contained 113,937 entries, with 81 columns. My main aim in this project was to determine what factors (such as loan term, occupation, income range, amount borrowed, among others) affected the annual percentage rate accorded to each borrower. My secondary aim was to observe the annual trends in features such as APR, Loan Amount, Monthly Income etc.
+
+#### About Prosper.
+[Prosper](https://www.prosper.com/) is America’s first marketplace lending platform, with over \\$10 billion in funded loans. It allows people to invest in each other in a way that is financially and socially rewarding. On Prosper, borrowers list loan requests between \\$2,000 and \\$35,000 and individual investors invest as little as \\$25 in each loan listing they select. Prosper handles the servicing of the loan on behalf of the matched borrowers and investors.
+
+### Dataset Description.
+The relevant columns are as follows:
+- BorrowerAPR: The Borrower's Annual Percentage Rate (APR) for the loan.
+- Original Loan Amount: 
+- Average Credit Score: Created from the CreditScoreRangeUpper and CreditScoreRangeLower columns, this is the average value of the borrower's credit score as provided by a consumer credit rating agency.
+- Listing Category: The category of the listing that the borrower selected when posting their listing.
+- Prosper Rating: The Prosper Rating assigned at the time the listing was created between AA - HR. Applicable for loans originated after July 2009.
+- Credit Grade: The Credit rating that was assigned at the time the listing went live. Applicable for listings pre-2009 period and will only be populated for those listings.
+- Occupation: The Occupation selected by the Borrower at the time they created the listing.
+- Stated Monthly Income: The monthly income of the borrower at the time the listing was created.
+- Loan_Year: Created from the ListingCreationDateColumn, this is the year of loan origination.
+- Income Range: The income range of the borrower at the time the listing was created.
+- Borrower State: The two letter abbreviation of the state of the address of the borrower at the time the listing was created.
+
+### Questions for Analysis.
+I arranged my questions into three groups for clarity: Univariate, Bivariate and Multivariate Exploration.
+
+##### Univariate 
+- What is the distribution of APRs?
+- What, using listing categories, are the 10 commonest reasons for taking a loan? 
+- What are the highest given loan amounts (principals)?
+- How are borrowers' occupations distributed throughout the dataset?
+- Under what loan status do the most borrowers fall?
+- From which 10 states do the most borrowers originate?
+
+
+##### Bivariate
+- What income grade gets an increased APR?
+- What category of occupations gets an increased APR?
+- What is the correlation between a borrower's average credit score and APR?
+- Before July 2009, what was the relationship between Credit Rating and APR? What about after July 2009?
+- Do larger principals attract higher APRs?
+- Do longer terms affect APR?
+- What is the yearly trend in average Borrower APR?
+- What is the distribution of APRs by state?
+
+##### Multivariate
+- What is the yearly trend in loan amount and APR?
+- What is the yearly trend in original loan amount against monthly income?
