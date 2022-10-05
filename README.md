@@ -92,7 +92,7 @@ At a glance, before getting into the rest of the process, I posed a few question
 This project specifically targets data visualization skills. I visualized data from Prosper loans, recorded between 2005 and 2014. I obtained this dataset from [here](https://www.google.com/url?q=https://s3.amazonaws.com/udacity-hosted-downloads/ud651/prosperLoanData.csv&sa=D&ust=1554484977406000). The dataset contained 113,937 entries, with 81 columns. My main aim in this project was to determine what factors (such as loan term, occupation, income range, amount borrowed, among others) affected the annual percentage rate accorded to each borrower. My secondary aim was to observe the annual trends in features such as APR, Loan Amount, Monthly Income etc.
 
 #### About Prosper.
-[Prosper](https://www.prosper.com/) is America’s first marketplace lending platform, with over \\$10 billion in funded loans. It allows people to invest in each other in a way that is financially and socially rewarding. On Prosper, borrowers list loan requests between \\$2,000 and \\$35,000 and individual investors invest as little as \\$25 in each loan listing they select. Prosper handles the servicing of the loan on behalf of the matched borrowers and investors.
+[Prosper](https://www.prosper.com/) is America’s first marketplace lending platform, with over \\$10 billion in funded loans. It allows people to invest in each other in a way that is financially and socially rewarding. On Prosper, borrowers list loan requests between \$2,000 and \$35,000 and individual investors invest as little as \$25 in each loan listing they select. Prosper handles the servicing of the loan on behalf of the matched borrowers and investors.
 
 ### Dataset Description.
 The relevant columns are as follows:
