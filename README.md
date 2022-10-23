@@ -54,7 +54,7 @@ The dataset contained over 100,000 entries, arranged over the following columns:
 
 ### Visualization
 ![No_Show_Appointments_Project Viz-1](https://user-images.githubusercontent.com/109004071/197157518-ffedddc9-1810-4c9f-bce0-b378226c3b8c.png)
-
+>This visualization was done using Microsoft PowerBI.
 <a id='wrangle'></a>
 ## Project 2: WeRateDogs- Wrangling and Analysing.
 This was my second technical project for the nanodegree course. This project specifically targets data wrangling skills. I scraped tweets from WeRateDogs' (@dog_rates) Twitter archive, using the Tweepy API. I then visually and programatically assessed, cleaned and analyzed the data.  
